@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-p {
+    @apply border px-3 py-1 w-full rounded-md outline-orange-300;
+}
