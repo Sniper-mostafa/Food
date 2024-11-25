@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       {showModal && <AuthForm setShowModal={setShowModal} /> }
-      <div>
+      <div className='min-h-[calc(100vh-214px)]'>
         <Navbar setShowModal={setShowModal} />
         <Routes>
           <Route path="/" element={<Home />} />
